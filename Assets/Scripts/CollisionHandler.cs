@@ -14,7 +14,7 @@ public class CollisionHandler : MonoBehaviour
         
     }
 
-    public bool validVector(Vector3 position)
+    public bool validDirection(Vector3 position)
     {
         if (LevelManager.getTile(position) != "s" && LevelManager.getTile(position) != "p" && LevelManager.getTile(position) != "e")
         {

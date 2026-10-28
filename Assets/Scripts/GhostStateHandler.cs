@@ -1,8 +1,9 @@
+using System.Diagnostics;
 using UnityEngine;
 
 public class GhostStateHandler : MonoBehaviour
 {
-    public string State = "Scared";
+    public string state = "Normal";
     public Color mainColour;
     private SpriteRenderer spriteRenderer;
     
@@ -16,9 +17,14 @@ public class GhostStateHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (State == "Scared")
+        switch (state)
         {
-            spriteRenderer.color = Color.blue;
+            case "Normal":
+                spriteRenderer.color = mainColour;
+                break;
+            case "Scared":
+                spriteRenderer.color = Color.blue;
+                break;
         }
     }
 }

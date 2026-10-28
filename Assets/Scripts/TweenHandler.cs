@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class TweenHandler : MonoBehaviour
 {
-    private Tween activeTween;
+    public Tween activeTween;
     
     void Update()
     {
