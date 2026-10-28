@@ -22,4 +22,16 @@ public class CollisionHandler : MonoBehaviour
         }
         return true;
     }
+
+    public void checkItemCollisions(Vector3 position)
+    {
+        if (LevelManager.getTile(position) == "s")
+        {
+            LevelManager.setTileToEmpty(position);
+        }
+        else if (LevelManager.getTile(position) == "p")
+        {
+            
+        }
+    }
 }

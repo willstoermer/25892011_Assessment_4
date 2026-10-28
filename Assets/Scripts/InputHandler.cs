@@ -18,7 +18,9 @@ public class InputHandler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        collisionHandler.checkItemCollisions(transform.position);
+
+
         if (Input.GetAxisRaw("Horizontal") != 0)
         {
             newVector = new Vector3( Input.GetAxisRaw("Horizontal"), 0, 0 );
