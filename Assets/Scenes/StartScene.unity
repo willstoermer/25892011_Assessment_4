@@ -3250,7 +3250,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2058518060}
   - component: {fileID: 2058518059}
-  - component: {fileID: 2058518058}
   - component: {fileID: 2058518057}
   - component: {fileID: 2058518056}
   - component: {fileID: 2058518055}
@@ -3307,18 +3306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 107e53c6497e4184499862ffe412aae8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TweenHandler
---- !u!114 &2058518058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2058518054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f2018f39d564fb40a1bb9ac910de603, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInputHandler
 --- !u!212 &2058518059
 SpriteRenderer:
   serializedVersion: 2
